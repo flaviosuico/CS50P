@@ -1,8 +1,10 @@
-# solicita ao usuário que digite dois números e imprime a soma deles
-x = float(input("Qual é o valor de x? "))
-y = float(input("Qual é o valor de y? "))
+def main():
+    x = int(input("Qual é o X? "))
+    print("x é", square(x))
 
-z = x  / y
 
-# Imprime a soma dos números
-print(f"{z:.2f}")
+def square(n):
+    return pow(n, 2)
+
+
+main()
