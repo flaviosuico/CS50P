@@ -1,6 +1,8 @@
-x = input("Qual é o valor de x? ")
-y = input("Qual é o valor de y? ")
+# solicita ao usuário que digite dois números e imprime a soma deles
+x = float(input("Qual é o valor de x? "))
+y = float(input("Qual é o valor de y? "))
 
-z = int(x) + int(y)
+z = x  / y
 
-print(z)
+# Imprime a soma dos números
+print(f"{z:.2f}")
